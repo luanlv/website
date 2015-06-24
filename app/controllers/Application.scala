@@ -54,7 +54,7 @@ class Application   @Inject() (uuidGenerator: UUIDGenerator) extends Controller 
 
   def index = GetAction {
     Request =>
-      Ok(views.html.index("init website OK 2"))
+      Ok(views.html.index())
   }
 
   def upload = GetAction {
